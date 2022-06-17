@@ -1,0 +1,330 @@
+﻿
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+body {
+    font-family: 'Poppins','Open sans',sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button:hover {
+    background-color: hsl(322, 3%, 91%);
+    transition: background-color 1s ease;
+}
+.first .btn button:hover {
+    background-color: hsl(322, 35%, 66%);
+    transition: background-color 1s ease;
+}
+.prob button:hover {
+    background-color: hsl(322, 35%, 66%);
+    transition: background-color 1s ease;
+}
+
+@media only screen and (min-width : 375px) {
+    main {
+        height: 100vh;
+    }
+    .i {
+        vertical-align: unset;
+        font-size: 40px;
+    }
+    .meek {
+        padding-top: 40px;
+        font-size: 42px;
+    }
+    .weak {
+        padding: 59px;
+    }
+    .hud {
+        width: 40%;
+        margin-top: 124px;
+    }
+
+    .header {
+        width: 100%;
+        padding-top: 35px;
+    }
+
+    button {
+        width: 200px;
+        height: 47px;
+        float: right;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border-radius: 4.25rem;
+        display: inline-block;
+        border: 1px solid white;
+        padding: 0.375rem 0.75rem;
+        -webkit-appearance: button;
+        box-shadow: 2px 6px 15px #e4dddd;
+    }
+
+    .first {
+        font-family: 'Poppins',sans-serif;
+        background-color: hsl(193, 100%, 96%);
+        background-image: url('bg-hero-mobile.svg');
+        padding: 4%;
+    }
+
+    h2 {
+        font-size: 58px;
+        padding: 80px;
+        margin-top: 61px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: 'Open sans';
+        padding-right: 80px;
+        padding-left: 80px;
+        font-size: 39px;
+        font-weight: 400;
+    }
+
+    .first .btn button {
+        float: none;
+        width: 500px;
+        height: 80px;
+        font-size: 32px;
+        margin-top: 60px;
+        background-color: hsl(322, 100%, 66%);
+        color: white;
+    }
+       
+    .btn{
+        text-align:center;
+    }
+
+    .first .myimg img {
+        width: 100%;
+        padding: 80px;
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column;
+        height: 4200px;
+        padding: 70px;
+    }
+
+    .fir {
+        background-color: white;
+        border-radius: 20px;
+        width: 100%;
+        height: 33.33%;
+        box-shadow: 2px 6px 15px #e4dddd;
+        margin-top: 50px;
+    }
+
+        .fir img {
+            width: 100%;
+            padding: 80px;
+        }
+
+    .last {
+        height: 1490px;
+        padding: 70px;
+        color: white;
+        background-color: hsl(192, 100%,9%);
+    }
+
+        .last h4 {
+            text-align: left;
+            font-size: 37px;
+        }
+
+        .last .ll h4 {
+            padding-left: 0px;
+        }
+
+    .myt {
+        margin-top: 100px;
+    }
+
+    .last .myt {
+        text-align: center;
+        font-size: 50px;
+        color: white;
+    }
+
+        .last .myt h4 {
+            font-size: 24px;
+        }
+
+    .prob {
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 2px 6px 15px #e4dddd;
+        height: 400px;
+        padding: 0px;
+        color: black;
+        position: relative;
+        bottom: 1660px;
+    }
+
+        .prob h2 {
+            padding: 0px;
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .prob div {
+            text-align: center;
+        }
+
+        .prob button {
+            float: none;
+            width: 500px;
+            height: 80px;
+            font-size: 32px;
+            margin-top: 60px;
+            background-color: hsl(322, 100%, 66%);
+            color: white;
+        }
+
+    .long {
+        height: 4500px;
+    }
+}
+
+@media only screen and (min-width : 1440px) {
+    .gix{
+        display:flex;
+        flex-direction:row;
+        width:100%;
+    }
+    .help{
+        height:0px;
+    }
+    .first {
+        background-image: url(bg-hero-desktop.svg);
+    }
+    .first .flee{
+        width:45%;
+    }
+    .first .myimg img {
+        width: 88%;
+        padding: 0;
+        float:right;
+    }
+    .myimg {
+        margin-top: 50px;
+        width: 55%;
+    }
+    .first .btn button {
+        width: 330px;
+        height: 71px;
+        font-size: 20px;
+        margin-top:30px;
+    }
+    .btn {
+        text-align: left;
+    }
+    h4 {
+        text-align: left;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 20px;
+        font-size: 21px;
+    }
+    h2 {
+        font-size: 48px;
+        padding: 0px;
+        margin-top: 145px;
+        text-align: left;
+    }
+    .fir{
+        display:flex;
+        flex-direction:row;
+        width:100%;
+    }
+    .man{
+        width:40%;
+    }
+    .fir img {
+        width: 100%;
+        padding: 0px;
+    }
+    .man {
+        width: 40%;
+        position: relative;
+        left: 741px;
+        top: 60px;
+    }
+    .together {
+        position: relative;
+        right: 520px;
+        width: 60%;
+        padding-top: 59px;
+        padding: 80px;
+        bottom:35px;
+    }
+    .zero {
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    .grey {
+        font-size: 22px;
+        color: grey;
+    }
+    .sec{
+        height:2021px;
+    }
+    .long{
+        height:2400px;
+    }
+    .last{
+        height:690px;
+    }
+    .hud{
+        width:25%;
+    }
+    .t{
+        width:35%;
+    }
+    .last .t h4{
+        font-size:17px;
+        margin-top:0;
+    }
+    .i {
+        vertical-align: unset;
+        font-size: 30px;
+    }
+    .u {
+        margin: auto;
+        position: relative;
+        bottom: 261px;
+    }
+    .ll .u h4{
+        font-size:16px;
+    }
+    .z{
+        font-size:30px;
+        text-align:left;
+    }
+    .v{
+        position:relative;
+        bottom:286px;
+        margin-left:auto;
+    }
+    .myt .x h4{
+        font-size:20px;
+        text-align:left;
+        padding-top:149px;
+    }
+    .myt{
+        margin-top:0;
+        height:0px;
+    }
+    .prob {
+        bottom: 850px;
+    }
+   
+}
