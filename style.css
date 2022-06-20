@@ -145,7 +145,7 @@ button:hover {
         }
 
     .myt {
-        margin-top: 100px;
+        margin-top: 165px;
     }
 
     .last .myt {
@@ -191,6 +191,9 @@ button:hover {
 
     .long {
         height: 4500px;
+    }
+    .v {
+        margin: auto;
     }
 }
 
@@ -313,6 +316,8 @@ button:hover {
         position:relative;
         bottom:286px;
         margin-left:auto;
+        text-align:center;
+        margin-right:0;
     }
     .myt .x h4{
         font-size:20px;
