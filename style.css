@@ -197,7 +197,7 @@ button:hover {
     }
 }
 
-@media only screen and (min-width : 1440px) {
+@media only screen and (min-width : 992px) {
     .gix{
         display:flex;
         flex-direction:row;
